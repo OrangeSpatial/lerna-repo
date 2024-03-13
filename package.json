@@ -1,0 +1,26 @@
+{
+  "name": "lerna-repo",
+  "packageManager": "yarn@4.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "dev": "lerna run dev --scope @orange/designer --stream",
+    "build": "lerna run build --scope @orange/designer --stream"
+  },
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vue-tsc": "^1.8.27"
+  },
+  "dependencies": {
+    "vue": "^3.4.19"
+  }
+}

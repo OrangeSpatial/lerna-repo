@@ -1,0 +1,15 @@
+{
+  "name": "@orange/designer",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@orange/dnd": "workspace:^"
+  },
+  "devDependencies": {
+  }
+}
